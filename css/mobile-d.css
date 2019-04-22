@@ -1,0 +1,72 @@
+.menu-back {
+    background: rgba(21,21,21,0);
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+.cbp-af-header {
+    margin-top: 20px;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+@media only screen and (max-width: 1170px){
+
+	.menu-back {
+	    background: rgba(0,0,0,.93);
+	    -webkit-transition: all 0.3s ease-out;
+	    -moz-transition: all 0.3s ease-out;
+	    -o-transition: all 0.3s ease-out;
+	    transition: all 0.3s ease-out;
+	}
+	
+	.menu > ul {
+		margin: 0 auto;
+	    width: auto;
+	    float: right;
+	    list-style: none;
+	    padding: 0;
+	    box-sizing: border-box;
+		padding-top: 40px;
+	    padding-bottom: 40px;
+	    -webkit-transition: all 0.3s ease-out;
+	    -moz-transition: all 0.3s ease-out;
+	    -o-transition: all 0.3s ease-out;
+	    transition: all 0.3s ease-out;	
+	    width: 100%;
+	    float: none;
+	    position: relative;
+	    display: none;
+
+	}
+
+	.menu-mobile {
+	    display: block;
+	}
+
+}
+
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.menu-mobile {
+    display: none;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
